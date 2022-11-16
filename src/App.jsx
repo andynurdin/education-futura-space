@@ -8,11 +8,13 @@ import OfflineLearn from "./pages/OfflineLearn";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navs from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <>
       <Navs />
+      <img src="images/header.png" alt="" style={{width:"100%"}}/>
       <Container>
         <Routes>
           <Route>
@@ -25,6 +27,7 @@ const App = () => {
           </Route>
         </Routes>
       </Container>
+      <Footer />
     </>
   );
 }

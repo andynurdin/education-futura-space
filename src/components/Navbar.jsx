@@ -4,10 +4,10 @@ import "./Navbar.css";
 
 const Navs = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar sticky="top" variant="dark" expand="lg" style={{background:"black"}}>
       <Container fluid className="contianer">
         <NavLink to="/" className="navbar-brand">
-          <img src="images/logo2.png" alt="" style={{ width: "71.69px", height: "30px" }} />
+          <img src="images/logo2.png" alt="" style={{ width: "71.69px", height: "auto", marginLeft:"50px" }} />
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
