@@ -1,3 +1,14 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .button {
   margin: 0 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  background: #DFAD53;
+  border-radius: 8px;
+  padding: 8px;
 }

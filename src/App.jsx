@@ -9,12 +9,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navs from "./components/Navbar";
 import Footer from "./components/Footer";
+import header from "./assets/header.png";
 
 const App = () => {
   return (
     <>
       <Navs />
-      <img src="images/header.png" alt="" style={{width:"100%"}}/>
+      <img src={header} alt="" style={{width:"100%"}}/>
       <Container>
         <Routes>
           <Route>

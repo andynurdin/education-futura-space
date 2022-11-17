@@ -1,11 +1,11 @@
 import "./Card.css";
 
-const Card = () => {
+const Card = ({image, title, subtitle}) => {
   return (
     <div className="cards">
-      <img src="images/card1.png" alt="" />
-      <h5 className="card-title">Kelas Fashion Design</h5>
-      <h6 className="card-text">Beginer</h6>
+      <img src={image} alt="" />
+      <h5 className="card-title">{title}</h5>
+      <h6 className="card-text">{subtitle}</h6>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -7,8 +8,8 @@ const Footer = () => {
     <Container>
       <Row>
         <Col style={{marginRight:"150px"}}>
-          <img src="images/logo.png" alt="" className="img" />
-          <h3 className="title" style={{marginTop:"-20px"}}>FUTURA SPACE</h3>
+          <img src={logo} alt="" className="img" />
+          <h3 className="title" style={{marginTop:"-30px"}}>FUTURA SPACE</h3>
           <p className="subtitle">
             Jl. Soekarno, no.50, Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12860
           </p>
