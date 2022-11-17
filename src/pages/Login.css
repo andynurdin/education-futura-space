@@ -1,0 +1,58 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.login {
+  height: fit-content;
+}
+
+.login-left {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.img-login {
+  width: auto;
+  height: 351px;
+}
+
+.title-login h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #FFFFFF;
+  margin-top: 140px;
+}
+
+.title-login p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.login-right {
+  display: flex;
+  justify-content: center;
+}
+
+.card-login {
+  width: 484px;
+  height: 751px;
+  background: #D7D7DA;
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-login {
+  margin-top: 50px;
+  background: black;
+  border-radius: 50%;
+  padding: 40px;
+}

@@ -9,7 +9,7 @@ body {
   margin-top: 50px;
 }
 
-.img {
+.img-footer {
   width: 222px;
 }
 
@@ -19,7 +19,7 @@ body {
   font-weight: 600;
   font-size: 21px;
   color: #ffff;
-  margin-top: 40px;
+  margin: 40px 0 16px 0;
 }
 
 .subtitle {

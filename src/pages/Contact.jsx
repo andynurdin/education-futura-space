@@ -1,7 +1,18 @@
+import { Container } from "react-bootstrap";
+import Navs from "../components/Navbar";
+import Footer from "../components/Footer";
+
+import header from "../assets/header.png";
+
 const Contact = () => {
   return (
     <>
-    <h1>Contact</h1>
+      <Navs />
+      <img src={header} alt="" style={{width:"100%"}}/>
+      <Container>
+        <h1>Contact</h1>
+      </Container>
+      <Footer />
     </>
   );
 }
