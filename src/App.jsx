@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navs from "./components/Navbar";
 import Footer from "./components/Footer";
-import header from "./assets/header.png";
+import header from "./assets/header.png"
 
 const App = () => {
   return (
