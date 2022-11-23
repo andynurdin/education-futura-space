@@ -12,46 +12,62 @@ import card6 from "../assets/card6.png";
 import header from "../assets/header.png";
 
 const OnlineLearn = () => {
-  const title = "Kelas Fashion Desain";
   const subtitle = "Beginer";
 
   return (
     <>
-    <Navs />
-    <img src={header} alt="" style={{width:"100%"}}/>
+      <Navs />
+      <img src={header} alt="" style={{ width: "100%" }} />
       <Container>
-        <h1 style={{
-          width: "fit-content",
-          fontFamily: "Zen Antique",
-          fontWeight: "400",
-          fontSize: "48px",
-          padding: "20px 10px",
-          background: "black",
-          color: "#ffff",
-          marginTop: "55px"
-        }}>
+        <h1
+          style={{
+            width: "fit-content",
+            fontFamily: "Zen Antique",
+            fontWeight: "400",
+            fontSize: "48px",
+            padding: "20px 10px",
+            background: "black",
+            color: "#ffff",
+            marginTop: "55px",
+          }}>
           Online Class
         </h1>
         <div className="row">
           <div className="col-4">
-            <Card image={card1} title={title} subtitle={subtitle} />
+            <Card image={card1} title="Dress Making" subtitle={subtitle} />
           </div>
           <div className="col-4">
-            <Card image={card2} title={title} subtitle={subtitle} />
+            <Card image={card2} title="Fashion Stylist" subtitle={subtitle} />
           </div>
           <div className="col-4">
-            <Card image={card3} title={title} subtitle={subtitle} />
+            <Card
+              image={card3}
+              title="Pattern Making"
+              subtitle="Intermediate"
+            />
           </div>
         </div>
         <div className="row">
           <div className="col-4">
-            <Card image={card4} title={title} subtitle={subtitle} />
+            <Card
+              image={card4}
+              title="Fashion Designer Basic"
+              subtitle={subtitle}
+            />
           </div>
           <div className="col-4">
-            <Card image={card5} title={title} subtitle={subtitle} />
+            <Card
+              image={card5}
+              title="Fashion Designer Intermediate"
+              subtitle="Intermediate"
+            />
           </div>
           <div className="col-4">
-            <Card image={card6} title={title} subtitle={subtitle} />
+            <Card
+              image={card6}
+              title="Fashion Designer Advanced"
+              subtitle="Advanced"
+            />
           </div>
         </div>
       </Container>

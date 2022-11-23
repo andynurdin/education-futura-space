@@ -9,27 +9,28 @@ import card9 from "../assets/card9.png";
 import card10 from "../assets/card10.png";
 import card11 from "../assets/card11.png";
 import card12 from "../assets/card12.png";
-import header from "../assets/header.png";
+import header2 from "../assets/header-2.png";
 
 const OfflineLearn = () => {
   const title = "Kelas Fashion Desain";
-  const subtitle = "Beginer";
+  const subtitle = "Beginner";
 
   return (
     <>
-    <Navs />
-    <img src={header} alt="" style={{width:"100%"}}/>
+      <Navs />
+      <img src={header2} alt="" style={{ width: "100%" }} />
       <Container>
-        <h1 style={{
-          width: "fit-content",
-          fontFamily: "Zen Antique",
-          fontWeight: "400",
-          fontSize: "48px",
-          padding: "20px 10px",
-          background: "black",
-          color: "#ffff",
-          marginTop: "55px"
-        }}>
+        <h1
+          style={{
+            width: "fit-content",
+            fontFamily: "Zen Antique",
+            fontWeight: "400",
+            fontSize: "48px",
+            padding: "20px 10px",
+            background: "black",
+            color: "#ffff",
+            marginTop: "55px",
+          }}>
           Offline Class
         </h1>
         <div className="row">
@@ -58,6 +59,6 @@ const OfflineLearn = () => {
       <Footer />
     </>
   );
-}
+};
 
 export default OfflineLearn;

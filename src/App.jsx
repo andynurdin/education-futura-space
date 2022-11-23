@@ -6,6 +6,7 @@ import OnlineLearn from "./pages/OnlineLearn";
 import OfflineLearn from "./pages/OfflineLearn";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import SignUp from "./pages/SignUp";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="/onlineLearn" element={<OnlineLearn />} />
           <Route path="/offlineLearn" element={<OfflineLearn />} />
           <Route path="/about" element={<About />} />
@@ -22,6 +24,6 @@ const App = () => {
       </Routes>
     </>
   );
-}
+};
 
 export default App;
