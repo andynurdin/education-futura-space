@@ -1,14 +1,14 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo2.png";
 
 const Navs = () => {
   return (
     <Navbar sticky="top" variant="dark" expand="lg" style={{background:"black"}}>
       <Container fluid className="contianer">
         <NavLink to="/" className="navbar-brand">
-          <img src={logo} alt="" style={{ width: "71.69px", height: "auto", marginLeft:"50px" }} />
+          <img src={logo} alt="" style={{ width: "100px", height: "auto", marginLeft:"50px" }} />
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >

@@ -1,0 +1,41 @@
+.bg-contact {
+  background-image: url("../assets/bgContact.png");
+  background-size: cover;
+  height: 750px;
+  margin: -50px 0;
+}
+
+.card-contact {
+  height: 403px;
+  margin-top: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-left: 30px;
+}
+
+.card-contact h1 {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.card-contact h2 {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.card-contact p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
