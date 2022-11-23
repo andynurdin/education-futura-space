@@ -2,6 +2,9 @@
 import Navs from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Contact.css";
+import iconFb from "../assets/icon-fb.png";
+import iconIg from "../assets/icon-ig.png";
+import iconTt from "../assets/icon-tt.png";
 
 
 const Contact = () => {
@@ -25,7 +28,12 @@ const Contact = () => {
                   <p>futurahelper@gmail.com</p>
                 </div>
               </div>
-              <h2>Social Media</h2>
+              <h2 style={{marginTop:"20px"}}>Social Media</h2>
+              <div className="icon-sosmed">
+                <img src={iconFb} alt="" style={{marginRight:"40px"}}/>
+                <img src={iconIg} alt="" />
+                <img src={iconTt} alt="" style={{marginRight:"-40px"}}/>
+              </div>
             </div>
           </div>
         </div>

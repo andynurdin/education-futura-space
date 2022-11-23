@@ -79,5 +79,58 @@
   width: 346px;
   height: 110px;
   background: #DFAD53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 21px 0 26px 0;
+}
+
+.card-team3 {
+  width: 346px;
+  height: 265px;
+  background: #DFAD53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+.card-team4 {
+  width: 346px;
+  height: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-bottom: 20px;
+}
+
+.card-team5 {
+  width: 346px;
+  height: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-bottom: 20px;
+}
+
+.card-team6 {
+  width: 346px;
+  height: 184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-bottom: 20px;
+}
+
+.card-team7 {
+  width: 346px;
+  height: 365px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFAD53;
+  margin-top: 24px;
 }

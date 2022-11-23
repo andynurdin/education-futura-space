@@ -9,6 +9,10 @@ body {
   margin: 20px 0;
 }
 
+.card-img {
+  width: 371px;
+}
+
 .card-title {
   font-family: 'Zen Antique';
   font-style: normal;

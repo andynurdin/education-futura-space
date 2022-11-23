@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 import Card from "../components/Card";
 import Navs from "../components/Navbar";
@@ -18,7 +19,7 @@ const OnlineLearn = () => {
     <>
       <Navs />
       <img src={header} alt="" style={{ width: "100%" }} />
-      <Container>
+      <Container style={{marginBottom:"50px"}}>
         <h1
           style={{
             width: "fit-content",
@@ -34,15 +35,15 @@ const OnlineLearn = () => {
         </h1>
         <div className="row">
           <div className="col-4">
-            <Card image={card1} title="Dress Making" subtitle={subtitle} />
+            <Card image={card1} title={<NavLink to="/kelasOnline">Dress Making</NavLink>} subtitle={subtitle} />
           </div>
           <div className="col-4">
-            <Card image={card2} title="Fashion Stylist" subtitle={subtitle} />
+            <Card image={card2} title={<NavLink to="/kelasOnline">Fashion Stylist</NavLink>} subtitle={subtitle} />
           </div>
           <div className="col-4">
             <Card
               image={card3}
-              title="Pattern Making"
+              title={<NavLink to="/kelasOnline">Pattern Making</NavLink>}
               subtitle="Intermediate"
             />
           </div>
@@ -51,21 +52,21 @@ const OnlineLearn = () => {
           <div className="col-4">
             <Card
               image={card4}
-              title="Fashion Designer Basic"
+              title={<NavLink to="/kelasOnline">Fashion Designer Basic</NavLink>}
               subtitle={subtitle}
             />
           </div>
           <div className="col-4">
             <Card
               image={card5}
-              title="Fashion Designer Intermediate"
+              title={<NavLink to="/kelasOnline">Fashion Designer Intermediate</NavLink>}
               subtitle="Intermediate"
             />
           </div>
           <div className="col-4">
             <Card
               image={card6}
-              title="Fashion Designer Advanced"
+              title={<NavLink to="/kelasOnline">Fashion Designer Advanced</NavLink>}
               subtitle="Advanced"
             />
           </div>

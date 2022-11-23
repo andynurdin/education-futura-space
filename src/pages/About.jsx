@@ -29,14 +29,13 @@ const About = () => {
       <div className="our-team">
         <h1>Our Team</h1>
       </div>
-      <div className="container">
+      <div className="container" style={{marginBottom:"200px"}}>
         <div className="row">
           <div className="col-4">
             <div className="card-team1">
               <div className="title-team">
                 <p>
-                  Saya elang, asal dari surabaya, saya suka sekali dengan yang namanya
-                  ngoding. di team ini saya bekerja sebagai hipster</p>
+                  Saya elang, asal dari surabaya, saya suka sekali dengan yang namanya ngoding. di team ini saya    bekerja sebagai hipster</p>
               </div>
             </div>
             <img src={img1} alt="" />
@@ -46,14 +45,62 @@ const About = () => {
                 <p>elang Samudera</p>
               </div>
             </div>
+            <div className="card-team1">
+              <div className="title-team">
+                <p>
+                  Saya arya, asal dari bekasi pride, saya suka sekali dengan yang namanya ngoding. di team ini saya bekerja sebagai coder</p>
+              </div>
+            </div>
             <img src={img3} alt="" />
+            <div className="card-team2">
+              <div className="title-team">
+                <h3>hacker</h3>
+                <p>arya</p>
+              </div>
+            </div>
           </div>
           <div className="col-4">
             <img src={img2} alt="" />
+            <div className="card-team3">
+              <div className="title-team">
+                <h3>project manager</h3>
+                <p>husnul khatimah</p>
+              </div>
+            </div>
             <img src={img4} alt="" />
+            <div className="card-team3">
+              <div className="title-team">
+                <h3>hacker</h3>
+                <p>andi</p>
+              </div>
+            </div>
           </div>
           <div className="col-4">
+          <div className="card-team4">
+              <div className="title-team">
+                <p>
+                Saya husnul, asal dari sulawesi, saya ingin menjadi presiden maka dari itu di team ini saya bekerja sebagai hipster</p>
+              </div>
+            </div>
+            <div className="card-team5">
+              <div className="title-team">
+                <h3>project manager</h3>
+                <p>husnul khatimah</p>
+              </div>
+            </div>
+            <div className="card-team6">
+              <div className="title-team">
+                <p>
+                Saya arya, asal dari bekasi pride, saya suka membuat design. di team ini saya bekerja sebagai hipster</p>
+              </div>
+            </div>
             <img src={img5} alt="" />
+            <div className="card-team7">
+              <div className="title-team">
+                <h3>hipster</h3>
+                <p>Dimas pamungkas mursidi</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

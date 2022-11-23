@@ -38,3 +38,9 @@
   color: #FFFFFF;
   margin-bottom: 5px;
 }
+
+.icon-sosmed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

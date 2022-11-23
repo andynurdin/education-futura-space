@@ -1,0 +1,68 @@
+.card-jadwal-webinar {
+  border: 5px solid #000000;
+  padding: 50px 35px;
+  margin-bottom: 100px;
+}
+
+.table {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.form-webinar{
+  margin-top: 50px;
+}
+
+.input-webinar {
+  background: #D9D9D9;
+  border-style: none;
+  border-radius: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.label-webinar {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.form-check-input {
+  width: 40px;
+  height: 40px;
+  background: #D9D9D9;
+}
+
+.form-check-label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  margin-left: 15px;
+}
+
+.btn-konfirm {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: #000000;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
