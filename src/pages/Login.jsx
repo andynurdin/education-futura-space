@@ -1,4 +1,4 @@
-// import { Container } from "react-bootstrap";
+// import { Form } from "react-bootstrap";
 import "./Login.css";
 import logo from "../assets/logo.png";
 import icon1 from "../assets/icon-login.png";
@@ -17,8 +17,16 @@ const Login = () => {
       </div>
       <div className="login-right w-50">
         <div className="card-login">
-          <div className="circle-login">
-            <img src={icon1} alt="" className="icon-login"/>
+          <div>
+            <img src={icon1} alt="" className="icon-login" />
+          </div>
+          <div>
+            <label htmlFor="inputUsername" className="login-label">Username</label>
+            <input type="text" className="form-login" id="inputUsername" placeholder="Enter your username"/>
+          </div>
+          <div>
+            <label htmlFor="inputPassword" className="login-label">Password</label>
+            <input type="password" className="form-login" id="inputPassword" placeholder="Enter your password"/>
           </div>
         </div>
       </div>
