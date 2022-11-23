@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <>
       <Navs />
-      <div className="bg-contact">
-        <div className="row d-flex">
+      <div className="bg-contact d-flex">
+        <div className="row align-items-center">
           <div className="col-7 position-absolute end-0">
             <div className="card-contact">
               <div className="row">

@@ -3,3 +3,30 @@
   background-size: cover;
   height: 720px;
 }
+
+.title-about {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+.subtitle-about {
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+  width: 787px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
