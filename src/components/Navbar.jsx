@@ -34,8 +34,10 @@ const Navs = () => {
             </NavLink>
           </Nav>
           <Nav className="ms-auto">
-            <NavLink to="/login">
+            <NavLink to="/signUp">
               <button className="button-1">Sign Up</button>
+            </NavLink>
+            <NavLink to="/login">
               <button className="button-2">Login</button>
             </NavLink>
           </Nav>
