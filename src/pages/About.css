@@ -30,3 +30,54 @@
   display: flex;
   align-items: center;
 }
+
+.our-team {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.7);
+  width: fit-content;
+  padding: 10px;
+  margin: 150px 0 100px 0;
+}
+
+.title-team p {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.title-team h3 {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.card-team1 {
+  width: 346px;
+  height: 253px;
+  background: #DFAD53;
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.card-team2 {
+  width: 346px;
+  height: 110px;
+  background: #DFAD53;
+  margin: 21px 0 26px 0;
+}
