@@ -5,13 +5,17 @@ import logo from "../assets/logo2.png";
 
 const Navs = () => {
   return (
-    <Navbar sticky="top" variant="dark" expand="lg" className="navbar">
-      <Container fluid>
+    <Navbar sticky="top" variant="dark" expand="lg" style={{background:"black"}}>
+      <Container fluid className="contianer">
         <NavLink to="/" className="navbar-brand">
-          <img src={logo} alt="" style={{ width: "100px", height: "auto", marginLeft:"50px" }} />
+          <img
+            src={logo}
+            alt=""
+            style={{ width: "100px", height: "auto", marginLeft: "50px" }}
+          />
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" >
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <NavLink to="/" className="nav-link">
               Home
@@ -31,8 +35,8 @@ const Navs = () => {
           </Nav>
           <Nav className="ms-auto">
             <NavLink to="/login">
-              <button className="button">Sign Up</button>
-              <button className="button">Login</button>
+              <button className="button-1">Sign Up</button>
+              <button className="button-2">Login</button>
             </NavLink>
           </Nav>
         </Navbar.Collapse>
