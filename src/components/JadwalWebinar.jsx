@@ -1,4 +1,3 @@
-import { Form } from "react-bootstrap";
 import "./JadwalWebinar.css";
 
 const JadwalWebinar = () => {
@@ -24,17 +23,17 @@ const JadwalWebinar = () => {
       </div>
       <div className="form-webinar row">
         <div className="col-7">
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label className="label-webinar">Link Kartu Tanda Belajar akan dikirim melalui email</Form.Label>
-              <Form.Control className="input-webinar" type="email" placeholder="Masukkan Email" />
-            </Form.Group>
-            <div className="form-check mb-3 ">
-              <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-              <label className="form-check-label" for="exampleCheck1">Pastikan email yang anda masukan benar</label>
+          <form>
+            <div className="mb-3">
+              <label for="exampleInputEmail1" className="label-webinar">Kartu Tanda Belajar akan dikirim melalui email</label>
+              <input type="email" className="input-webinar" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Email"/>
+            </div>
+            <div className="mb-3 d-flex align-items-center">
+              <input type="checkbox" className="check-input" id="exampleCheck1" />
+              <label className="check-label" for="exampleCheck1">Pastikan email yang anda masukan benar</label>
             </div>
             <button className="btn-konfirm">Konfirmasi</button>
-          </Form>
+          </form>
         </div>
       </div>
     </div>
