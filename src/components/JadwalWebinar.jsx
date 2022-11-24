@@ -1,5 +1,5 @@
-import { Form } from "react-bootstrap"
-import "./JadwalWebinar.css"
+import { Form } from "react-bootstrap";
+import "./JadwalWebinar.css";
 
 const JadwalWebinar = () => {
   return (
@@ -29,7 +29,7 @@ const JadwalWebinar = () => {
               <Form.Label className="label-webinar">Link Kartu Tanda Belajar akan dikirim melalui email</Form.Label>
               <Form.Control className="input-webinar" type="email" placeholder="Masukkan Email" />
             </Form.Group>
-            <div className="mb-3 form-check">
+            <div className="form-check mb-3 ">
               <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
               <label className="form-check-label" for="exampleCheck1">Pastikan email yang anda masukan benar</label>
             </div>
