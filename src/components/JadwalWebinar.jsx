@@ -25,12 +25,12 @@ const JadwalWebinar = () => {
         <div className="col-7">
           <form>
             <div className="mb-3">
-              <label for="exampleInputEmail1" className="label-webinar">Kartu Tanda Belajar akan dikirim melalui email</label>
+              <label htmlFor="exampleInputEmail1" className="label-webinar">Kartu Tanda Belajar akan dikirim melalui email</label>
               <input type="email" className="input-webinar" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Email"/>
             </div>
             <div className="mb-3 d-flex align-items-center">
               <input type="checkbox" className="check-input" id="exampleCheck1" />
-              <label className="check-label" for="exampleCheck1">Pastikan email yang anda masukan benar</label>
+              <label className="check-label" htmlFor="exampleCheck1">Pastikan email yang anda masukan benar</label>
             </div>
             <button className="btn-konfirm">Konfirmasi</button>
           </form>
